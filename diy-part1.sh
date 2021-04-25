@@ -15,4 +15,3 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-svn co https://github.com/garypang13/openwrt-packages/trunk/smartdns-le package/smartdns-le
