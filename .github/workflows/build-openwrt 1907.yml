@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: OpenWrt-ZY
+name: OpenWrt-1907
 
 on:
   repository_dispatch:
