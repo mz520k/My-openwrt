@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: MyautoBuild x64OpenWrt
+name: MyautoBuild5.4 x64OpenWrt
 
 on:
   repository_dispatch:
