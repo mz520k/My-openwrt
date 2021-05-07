@@ -16,4 +16,4 @@
 # Add a feed source
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i '$a src-git diy https://github.com/firker/diy-ziyong' feeds.conf.default
-# svn co https://github.com/garypang13/openwrt-packages/trunk/smartdns-le package/smartdns-le
+svn co https://github.com/garypang13/openwrt-packages/trunk/smartdns-le package/smartdns-le
