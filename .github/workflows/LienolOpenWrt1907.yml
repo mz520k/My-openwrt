@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: HyautoBuild5.4
+name: MyautoBuild LienolOpenWrt1907 x64 
 
 on:
   repository_dispatch:
@@ -20,11 +20,11 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: master
-  FEEDS_CONF: hyfeeds.conf.default
-  CONFIG_FILE: hy54.config
-  DIY_P1_SH: diy-part1.sh
+  REPO_URL: https://github.com/Lienol/openwrt
+  REPO_BRANCH: 19.07
+  FEEDS_CONF: feeds.conf.default
+  CONFIG_FILE: my19.config
+  DIY_P1_SH: diy-my19.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
